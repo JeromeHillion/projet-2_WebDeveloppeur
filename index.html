@@ -7,64 +7,67 @@
     <title>Projet-2 développeur web</title>
   </head>
   <body class="text_light">
-      <div class="nav">
+      <div class="nav display-flex align-items-center">
         <div class="logo">
-       <div class="sub_logo"><img src="img/logo/Reservia.svg" alt="" /></div>
+       <div class="sub_logo display-flex align-items-center width-5 justify-content-space-around height-3-0625"><img src="img/logo/Reservia.svg" alt="" /></div>
       </div>
-       <div class="menu">
-         <div class="sub_menu">
-          <div class="menu_accommodation"><a class="text-primary">Hébergements</a></div>
-          <div class="menu_acctivities"><a>Activités</a></div>
-          <div class="menu_register"><a class="text-primary">S'inscrire</a></div>
+       <div class="menu display-flex width-full justify-content-flex-end">
+         <div class="sub_menu display-flex align-items-center width-30 padding-2 justify-content-space-around height-3-0625">
+          <div class="menu_accommodation padding-2 height-3-0625"><a class="text-primary">Hébergements</a></div>
+          <div class="menu_acctivities padding-2 height-3-0625"><a>Activités</a></div>
+          <div class="menu_register padding-2 height-3-0625"><a class="text-primary text_extra_bold">S'inscrire</a></div>
         </div>
         </div>
        
       </div>
       <div class="container">
-      <h3 class="text_bold">Trouvez votre hébergement pour des vacances de rêve</h3>
-      <p>En plein centre ville ou en pleine nature</p>
+      <h3 class="text_bold padding-left-3-7">Trouvez votre hébergement pour des vacances de rêve</h3>
+      <p class="padding-left-3-7">En plein centre ville ou en pleine nature</p>
 
-      <div class="search">
-        <div class="marker bg-grey">
-          <i class="fas fa-map-marker-alt"></i>
+      <div class="search display-flex padding-left-3 padding-top-1">
+        <div class="marker display-flex align-items-center bg-grey padding-0-6 width-3-5 justify-content-center">
+          <i class="fas fa-map-marker-alt font-size-1-3"></i>
         </div>
-        <div class="input_search">
-          <input type="text" value="Marseillle, France" />
+        <div class="input_search display-flex width-17 justify-content-center">
+          <input type="text" class="text_extra_bold" value="Marseillle, France" />
         </div>
         <div class="btn_submit">
-          <input class="btn text_extra_bold bg_primary" type="submit" value="Rechercher" />
+          <input class="btn text_extra_bold bg_primary padding-0-6" type="submit" value="Rechercher" />
         </div>
       </div>
 
-      <div class="filter">
-        <div class="economic">
-          <i class="fas fa-money-bill-wave text-primary"></i><span>Économique</span>
+      <div class="filter display-flex align-items-center padding-top-1 padding-left-3-7">
+        <div class="filter-title">
+        <h3>Filtres</h3>
+      </div> 
+      <div class="filter_menu display-flex justify-content-space-around align-items-center width-80">
+        <div class="economic width-13 padding-left-0 border-solid-1-grey border-radius-2">
+          <i class="fas fa-money-bill-wave text-primary padding-1 bg-light-primary border-radius-2 "></i><span class="padding-left-1">Économique</span>
         </div>
 
-        <div class="familly">
-          <i class="fas fa-child text-primary"></i><span>Familly</span>
+        <div class="familly width-10 padding-left-0 border-solid-1-grey border-radius-2">
+          <i class="fas fa-child text-primary padding-1 bg-light-primary border-radius-2 width-1"></i><span class="padding-left-1">Familly</span>
         </div>
 
-        <div class="romantic">
-          <i class="fas fa-heart text-primary"></i><span>Romantique</span>
+        <div class="romantic width-13 padding-left-0 border-solid-1-grey border-radius-2">
+          <i class="fas fa-heart text-primary padding-1 bg-light-primary border-radius-2"></i><span class="padding-left-1">Romantique</span>
         </div>
 
-        <div class="pets_allowed">
-          <i class="fas fa-dog text-primary"></i><span>Animaux autorisés</span>
+        <div class="pets_allowed width-16 padding-left-0 border-solid-1-grey border-radius-2">
+          <i class="fas fa-dog text-primary padding-1 bg-light-primary border-radius-2"></i><span class="padding-left-1">Animaux autorisés</span>
         </div>
       </div>
-
-      <div class="information">
-        <i class="fas fa-info text-primary"></i><span>Plus de 500 logements sont disponibles dans cette ville</span>
+    </div>
+      <div class="information padding-top-1 padding-left-3-7 display-flex align-items-center">
+        <i class="fas fa-info text-primary border-solid-1-grey padding-0-6 border-radius-2 width-1"></i><span>Plus de 500 logements sont disponibles dans cette ville</span>
       </div>
-
-      <div class="accommodation">
+      <div class="all-acommodation display-flex padding-4">
+      <div class="accommodation width-70">
         <h3 class="text_bold">Hébergements à Marseille</h3>
-        <div class="accommodation_Marseille">
-          <div class="acommodation_info">
-            <img
-              src="img/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
-              alt=""
+        <div class="accommodation_Marseille  display-flex justify-content-space-around flex-wrap-wrap">
+          <div class="acommodation_info width-20 height-20 border-radius-2 ">
+
+            <img src="img/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"alt="" class="width-20"
             />
             <h4 class="text_bold">Auberge la Cannebière</h4>
             <span>Nuit à partir de 25€</span>
@@ -74,10 +77,10 @@
             <i class="fas fa-star text-primary"></i>
             <i class="fas fa-star text-grey"></i>
           </div>
-          <div class="acommodation_info">
+          <div class="acommodation_info width-20">
             <img
               src="img/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
-              alt=""
+              alt="" class="width-20"
             />
             <h4 class="text_bold">Hôtel du port</h4>
             <span>Nuit à partir de 52€</span>
@@ -87,10 +90,10 @@
             <i class="fas fa-star text-primary"></i>
             <i class="fas fa-star text-primary"></i>
           </div>
-          <div class="acommodation_info">
+          <div class="acommodation_info width-20">
             <img
               src="img/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg"
-              alt=""
+              alt="" class="width-20"
             />
             <h4 class="text_bold">Hôtel les mouettes</h4>
             <span>Nuit à partir de 76€</span>
@@ -100,10 +103,10 @@
             <i class="fas fa-star text-primary"></i>
             <i class="fas fa-star text-grey "></i>
           </div>
-          <div class="acommodation_info">
+          <div class="acommodation_info width-20">
             <img
               src="img/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
-              alt=""
+              alt="" class="width-20 height-11-3"
             />
             <h4 class="text_bold">hôtel de la mer</h4>
             <span>Nuit à partir de 46€</span>
@@ -113,10 +116,10 @@
             <i class="fas fa-star text-grey "></i>
             <i class="fas fa-star text-grey"></i>
           </div>
-          <div class="acommodation_info">
+          <div class="acommodation_info width-20">
             <img
               src="img/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
-              alt=""
+              alt="" class="width-20 height-11-3"
             />
             <h4 class="text_bold">Auberge le Panier</h4>
             <span>Nuit à partir de 23€</span>
@@ -126,10 +129,10 @@
             <i class="fas fa-star text-primary"></i>
             <i class="fas fa-star text-grey"></i>
           </div>
-          <div class="acommodation_info">
+          <div class="acommodation_info width-20">
             <img
               src="img/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
-              alt=""
+              alt="" class="width-20 height-11-3"
             />
             <h4 class="text_bold">hôtel chez Amina</h4>
             <span>Nuit à partir de 96€</span>
@@ -142,51 +145,63 @@
         </div>
       </div>
 
-      <div class="popular_accommodation">
-        <h4 class="text_bold">Les plus populaires</h4>
-        <i class="fas fa-chart-line"></i>
+      <div class="popular_accommodation width-40 height-50 display-flex justify-content-space-between flex-direction-column align-items-center">
+        <h4 class="text_bold">Les plus populaires<i class="fas fa-chart-line"></i></h4>
+        
 
-        <div class="acommodation_info">
+        <div class="acommodation_info display-flex width-30">
           <img
             src="img/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
-            alt=""
+            alt="" class="width-10 height-11-3"
           />
+          <div class="acomodation_description">
           <h4 class="text_bold">Hôtel le soleil du matin</h4>
           <span>Nuit à partir de 25€</span>
+          <div class="star">
           <i class="fas fa-star text-primary"></i>
           <i class="fas fa-star text-primary"></i>
           <i class="fas fa-star text-primary"></i>
           <i class="fas fa-star text-primary"></i>
           <i class="fas fa-star text-primary"></i>
         </div>
-        <div class="acommodation_info">
+        </div> 
+        </div>
+        <div class="acommodation_info display-flex width-30">
           <img
             src="img/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"
-            alt=""
+            alt="" class="width-10 height-11-3"
           />
+          <div class="acommodation_description">
           <h4 class="text_bold">Au coeur de l'eau Chambres d'hôtes</h4>
           <span>Nuit à partir de 52€</span>
+          <div class="star">
           <i class="fas fa-star text-primary"></i>
           <i class="fas fa-star text-primary"></i>
           <i class="fas fa-star text-primary"></i>
           <i class="fas fa-star text-primary"></i>
           <i class="fas fa-star text-grey"></i>
+          </div>
         </div>
-        <div class="acommodation_info">
+        </div>
+        <div class="acommodation_info display-flex j width-30">
           <img
             src="img/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
-            alt=""
+            alt="" class="width-10 height-11-3"
           />
+          <div class="acommodation_description">
           <h4 class="text_bold">Hôtel Tout bleu et blanc</h4>
           <span>Nuit à partir de 76€</span>
+          <div class="star">
           <i class="fas fa-star text-primary"></i>
           <i class="fas fa-star text-primary"></i>
           <i class="fas fa-star text-primary"></i>
           <i class="fas fa-star text-primary"></i>
           <i class="fas fa-star text-grey"></i>
         </div>
+        </div>
+        </div>
       </div>
-
+    </div>
       <div class="activities">
         <h3 class="text_bold">Activités à Marseille</h3>
         <div class="activities_type">
